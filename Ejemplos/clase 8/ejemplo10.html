@@ -7,13 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+    <input id="elem" type="button" value="Haz click en mi">
     <script>
-        function showMessage(from, text){
-            alert(from + ': ' + text);
-        }
-
-        showMessage('Julieta', '¡Hola!');
-        showMessage('Franco',"¿Como estas?");
+        elem.onclick=function(){
+            alert("¡Gracias!");
+        };
     </script>
 </body>
 </html>
